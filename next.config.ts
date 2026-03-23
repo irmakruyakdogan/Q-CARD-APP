@@ -1,13 +1,7 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  eslint: {
-    // Vercel'in ufak tefek uyarılarda derlemeyi durdurmasını engeller
-    ignoreDuringBuilds: true,
-  },
-  typescript: {
-    // Proje localhost'ta çalışıyorsa, Vercel'i zorla yayına geçirir
-    ignoreBuildErrors: true,
-  },
+import type { NextConfig } from "next";
+
+const nextConfig: NextConfig = {
+  /* temiz ve standart ayar */
 };
 
 export default nextConfig;
